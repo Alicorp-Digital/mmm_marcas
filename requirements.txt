@@ -1,0 +1,9 @@
+arviz
+pandas
+matplotlib
+seaborn
+altair
+pymc-marketing
+st-pages
+python-pptx
+plotly
