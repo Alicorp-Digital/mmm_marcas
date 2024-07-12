@@ -11,10 +11,6 @@ if __name__ == '__main__':
     import seaborn as sns
     import streamlit as st
     from st_pages import Page, Section, show_pages, add_page_title, hide_pages
-    
-    from pymc_marketing.mmm.delayed_saturated_mmm import DelayedSaturatedMMM
-    from pymc_marketing.mmm.transformers import geometric_adstock, logistic_saturation
-    from pymc_marketing.mmm.budget_optimizer import calculate_expected_contribution
 
     st.set_page_config(
         page_title="MMM ALICORP", page_icon=":chart_with_upwards_trend:"
